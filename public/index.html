@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Website Anggoro Setyo Nugroho</title>
+    
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+    
+    <!---linking css file-->
+    <link rel="stylesheet" href="css/style.css">    
+    
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-scroll bg-navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#home">aesenporto</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_supported_content" aria-controls="navbar_supported_content" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            
+            </button> 
+            <div class="collapse navbar-collapse" id="navbar_supported_content">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main banner -->
+    <section class="bg-image" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h1 class="hero-title">Hi, it's me <strong>Anggoro Setyo Nugroho</strong>               
+                    <p class="hero-desc">I am a programmer in Batam</p>
+                    <a href="#about" class="btn btn-primary">learn more</a>
+                </div>
+              </div>
+           </div>
+        </div>
+    </section>
+
+<!-- About section -->
+<section id="about">
+    <div class="container mt-4 pt-4">
+        <h1 class="text-center">About Me</h1>
+        <div class="row mt-4">
+            <div class="col-lg-4 ms-auto d-flex align-items-center text-align">
+                <img src="image/aboutku.JPG" class="image-about-page" alt="Anggoro Setyo Nugroho">
+            </div>
+            <div class="col-lg-8">
+                <p style="text-align: justify;">
+                  <strong>I’m Anggoro Setyo Nugroho</strong>, a passionate Information Technology student with a strong interest in exploring the fields of data science, artificial intelligence, and cloud security. My enthusiasm for technology drives me to continuously learn and take on new challenges, enabling me to develop a diverse skill set that can quickly adapt to changes in the tech world.
+                </p>
+                <p style="text-align: justify;">
+                    Throughout my academic journey, I have been actively involved in various tech projects, where I’ve had the opportunity to build engaging web applications and dive into cloud platforms like AWS. These experiences not only strengthen my technical skills but also ignite my desire to harness the power of data and AI to create innovative solutions that can make a real impact.
+                </p>
+                <p style="text-align: justify;">
+                    Currently, I am honing my skills through hands-on programs like the <strong>IBM Academy @ Infinite Learning</strong>. These immersive experiences equip me with the tools and knowledge to tackle complex problems and stay at the forefront of technological advancements.
+                </p>
+                <p style="text-align: justify;">
+                    One of my core strengths lies in my creativity when it comes to problem-solving. Whether I’m developing a new feature or refining an existing system, I approach challenges with a fresh perspective, combining analytical thinking with innovative ideas. This unique blend allows me to contribute meaningfully to every project I undertake.
+                </p>
+                <p style="text-align: justify;">
+                    Outside the realm of technology, I have a passion for photography and videography. I love capturing moments and telling stories through visual media, seamlessly blending my technical knowledge with my creative side. This passion enriches my perspective and enhances my approach to problem-solving in the tech world.
+                </p>
+                <p style="text-align: justify;">
+                    I invite you to explore my portfolio, where you can discover the projects I’ve worked on and the skills I’ve developed along the way. Let’s connect and collaborate to drive innovation together!
+                </p>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- services section-->
+<section id="services">
+    <div class="container mt-5 pt-5">
+        <h1 class="text-center">Services</h1>
+        <div class="row" id="services-container"></div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio">
+    <div class="container mt-5 pt-5">
+        <h1 class="text-center">Portfolio</h1>
+        <div id="portfolioContent" class="row"></div>
+    </div>
+</section>
+
+
+<!-- Contact section starts -->
+<section class="contact py-5" id="contact">
+    <div class="heading text-center">
+      <small>Get in Touch</small>
+      <h3>Want to collaborate? Feel Free to Contact</h3>
+    </div>
+  
+    <div class="row justify-content-evenly mt-5">
+      <!-- Contact Details -->
+      <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+        <div class="row justify-content-evenly">
+          <div class="col-1">
+            <i class="bi bi-geo-alt-fill"></i>
+          </div>
+          <div class="col-11">
+            <p>Find Me</p>
+              <div class="social-icons">
+                <a href="https://www.instagram.com/anggorostyn" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="mailto:anggorosetyo231@gmail.com">
+                  <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/62895389430709" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Contact Form -->
+      <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+        <div class="contact-form">
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Name" />
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="E-mail" />
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Mobile No." />
+          </div>
+          <div class="mb-3">
+            <textarea
+              class="form-control"
+              placeholder="Message"
+              rows="5"
+            ></textarea>
+            <div>
+              <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill" onclick="submitForm()">Submit</button>
+            </div>
+            
+            <script>
+              function submitForm() {
+                alert("Kerja sama berhasil dikirim!");
+              }
+            </script>
+          
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+ 
+
+<!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#service">Service</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Portfolio</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="social-links mt-5" data-aos="fade-up">
+        <button href="" class="rounded-pill dribble">
+          <i class="bi bi-dribbble"></i>
+        </button>
+        <button href="" class="rounded-pill whatsapp">
+          <i class="bi bi-whatsapp"></i>
+        </button>
+        <button href="" class="rounded-pill behance">
+          <i class="bi bi-behance"></i>
+        </button>
+      </div>
+      <hr class="text-muted my-4" />
+
+    <p>Copyright 2024 Portfolio | Anggoro Setyo Nugroho.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+   
+    <!-- load javascript -->
+    <script src ="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
